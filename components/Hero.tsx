@@ -42,7 +42,7 @@ export default function Hero() {
           {/* Heading */}
 
           <h1
-  className="
+            className="
   text-5xl
   md:text-6xl
   lg:text-7xl
@@ -51,14 +51,14 @@ export default function Hero() {
   tracking-tight
   max-w-[700px]
   "
->
-  Transforming Ideas
-  <br />
-  Into{" "}
-  <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-    Digital Success
-  </span>
-</h1>
+          >
+            Transforming Ideas
+            <br />
+            Into{" "}
+            <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+              Digital Success
+            </span>
+          </h1>
 
           {/* Description */}
 
@@ -191,20 +191,21 @@ export default function Hero() {
               height={600}
               priority
               className="
-              w-full
-              max-w-[500px]
-              lg:max-w-[560px]
-              h-auto
-              object-contain
-              animate-float
-              drop-shadow-[0_0_120px_rgba(59,130,246,0.7)]
-              "
+  hidden lg:block
+  w-full
+  max-w-[500px]
+  lg:max-w-[560px]
+  h-auto
+  object-contain
+  animate-float
+  drop-shadow-[0_0_120px_rgba(59,130,246,0.7)]
+  "
             />
-<div className="absolute inset-0 bg-blue-500/20 blur-[120px] rounded-full"></div>
+            <div className="absolute inset-0 bg-blue-500/20 blur-[120px] rounded-full"></div>
 
-<div className="absolute inset-0 bg-indigo-500/20 blur-[150px] rounded-full"></div>
+            <div className="absolute inset-0 bg-indigo-500/20 blur-[150px] rounded-full"></div>
 
-<div className="absolute inset-0 bg-cyan-500/10 blur-[180px] rounded-full"></div>
+            <div className="absolute inset-0 bg-cyan-500/10 blur-[180px] rounded-full"></div>
           </div>
 
         </div>

@@ -75,20 +75,24 @@ export default function Services() {
         {services.map((service) => (
           <div
             key={service.title}
-            className="
-            group
-            relative
-            overflow-hidden
-            rounded-3xl
-            border border-white/10
-            bg-white/5
-            backdrop-blur-xl
-            p-8
-            hover:-translate-y-4
-            hover:border-purple-500
-            hover:shadow-[0_0_40px_rgba(168,85,247,0.4)]
-            transition-all duration-500
-            "
+           className="
+group
+relative
+overflow-hidden
+rounded-3xl
+border border-white/10
+bg-white/5
+backdrop-blur-xl
+p-8
+transform-gpu
+hover:-translate-y-4
+hover:scale-[1.02]
+hover:border-purple-500
+hover:shadow-[0_0_45px_rgba(168,85,247,0.45)]
+transition-all
+duration-500
+ease-out
+"
           >
 
             <div className="
@@ -111,13 +115,15 @@ export default function Services() {
                   alt={service.title}
                   width={80}
                   height={80}
-                  className="
-                  w-20
-                  h-20
-                  object-contain
-                  group-hover:scale-110
-                  transition-all duration-500
-                  "
+                 className="
+w-20
+h-20
+object-contain
+group-hover:scale-110
+group-hover:rotate-6
+transition-all
+duration-500
+"
                 />
 
               </div>
@@ -143,13 +149,18 @@ export default function Services() {
               </ul>
 
               <button
-                className="
-                mt-8
-                text-blue-400
-                font-semibold
-                hover:text-purple-400
-                transition-all
-                "
+               className="
+mt-8
+inline-flex
+items-center
+gap-2
+text-blue-400
+font-semibold
+hover:text-purple-400
+hover:gap-4
+transition-all
+duration-300
+"
               >
                 Learn More →
               </button>

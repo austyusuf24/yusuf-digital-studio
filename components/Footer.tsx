@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mt-24 border-t border-white/10">
 
-      <div className="py-16">
+      <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-0 py-16">
 
         <div className="grid md:grid-cols-4 gap-10">
 
@@ -37,19 +37,31 @@ export default function Footer() {
 
             <div className="space-y-3 text-gray-400">
 
-              <a href="#about" className="block hover:text-white transition-all">
+              <a
+                href="#about"
+                className="block hover:text-white transition-all"
+              >
                 About
               </a>
 
-              <a href="#services" className="block hover:text-white transition-all">
+              <a
+                href="#services"
+                className="block hover:text-white transition-all"
+              >
                 Services
               </a>
 
-              <a href="#portfolio" className="block hover:text-white transition-all">
+              <a
+                href="#portfolio"
+                className="block hover:text-white transition-all"
+              >
                 Portfolio
               </a>
 
-              <a href="#pricing" className="block hover:text-white transition-all">
+              <a
+                href="#pricing"
+                className="block hover:text-white transition-all"
+              >
                 Pricing
               </a>
 
@@ -93,9 +105,12 @@ export default function Footer() {
               <p>+91 90801 62153</p>
 
               <p>
-                164, 2nd Cross,<br />
-                New Mettu Street,<br />
-                Sulthanpet, Villianur,<br />
+                164, 2nd Cross,
+                <br />
+                New Mettu Street,
+                <br />
+                Sulthanpet, Villianur,
+                <br />
                 Puducherry - 605110
               </p>
 
@@ -109,9 +124,13 @@ export default function Footer() {
 
       {/* Bottom Footer */}
 
-      <div className="border-t border-white/10 py-6 text-center text-gray-500">
+      <div className="border-t border-white/10">
 
-        © 2026 Yusuf Digital Studio. All Rights Reserved.
+        <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-0 py-6 text-center text-gray-500">
+
+          © 2026 Yusuf Digital Studio. All Rights Reserved.
+
+        </div>
 
       </div>
 

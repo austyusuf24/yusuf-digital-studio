@@ -15,10 +15,8 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-[#050816] text-white overflow-x-hidden">
 
-      {/* Particles Background */}
       <ParticlesBackground />
 
-      {/* Main Content */}
       <div className="relative z-10">
 
         <Navbar />
@@ -27,19 +25,32 @@ export default function Home() {
 
           <Hero />
 
-          <About />
+            <About />
+          
 
-          <Services />
+         
+            <Services />
+          
 
-          <TechStack />
+         
+            <TechStack />
+          
 
-          <Portfolio />
+         
+            <Portfolio />
+          
 
-          <Pricing />
+         
+            <Pricing />
+          
 
-          <Testimonials />
+         
+            <Testimonials />
+          
 
-          <Contact />
+         
+            <Contact />
+          
 
         </div>
 
