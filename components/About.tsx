@@ -136,7 +136,7 @@ export default function About() {
           </div>
 
         </div>
-
+<div></div>
         {/* Founder Card */}
 
         <div className="flex justify-center">
@@ -219,6 +219,89 @@ export default function About() {
 
             </div>
 
+          </div>
+
+        </div>
+        {/* CEO Card */}
+
+        <div className="flex justify-center">
+
+          <div
+            className="
+            group
+            bg-white/5
+            border border-white/10
+            backdrop-blur-xl
+            rounded-3xl
+            p-6
+            w-full
+            max-w-lg
+            hover:border-purple-500
+            hover:shadow-[0_0_40px_rgba(168,85,247,0.3)]
+            transition-all
+            duration-500
+          "
+          >
+
+            <div className="relative">
+
+              <div
+                className="
+                absolute
+                inset-0
+                bg-blue-500/20
+                blur-[80px]
+                rounded-3xl
+              "
+              />
+
+              <Image
+                src="/ceo.png"
+                alt="Mohamed Thoufick"
+                width={450}
+                height={550}
+                className="
+                  relative
+                  rounded-2xl
+                  w-full
+                  object-cover
+                "
+              />
+
+            </div>
+
+            <h3 className="text-3xl font-bold mt-6">
+              Mohammed Thoufick
+            </h3>
+
+            <p className="text-purple-400 mt-2">
+              CEO • Sales And Marketing • Business Development
+            </p>
+
+            <div className="flex items-center gap-3 mt-4">
+
+              <div className="w-3 h-3 rounded-full bg-green-500"></div>
+
+              <p className="text-green-400 text-sm">
+                Available for Meetings
+              </p>
+
+            </div>
+<div className="flex gap-3 mt-6 flex-wrap">
+
+              <span className="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-sm">
+                Communication
+              </span>
+
+              <span className="px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm">
+                Business Development
+              </span>
+
+              <span className="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-sm">
+                Marketing
+              </span>
+
+            </div>
           </div>
 
         </div>
